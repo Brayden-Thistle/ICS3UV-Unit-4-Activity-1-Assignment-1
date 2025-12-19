@@ -1,8 +1,8 @@
 /**
  * @author Brayden Thistle
  * @version 1.0.0
- * @date 2025-12-12
- * @fileoverview this program will ask the user for a starting and ending value thats an odd number and it will display each even number in between.
+ * @date 2025-12-18
+ * @fileoverview this program will calculate the average of someones grades
  */
 
 //
