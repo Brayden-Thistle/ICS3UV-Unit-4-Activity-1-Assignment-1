@@ -21,11 +21,11 @@ const average = total1 / MarkAmounts;
 console.log(`You have entered ${MarkAmounts} marks. The students average is ${average.toFixed(2)}%.`);
 
 //if else statements to decide if the student is failing or not
-if (total1 < 50) {
-  console.log("the student is failing")
-} else if (total1 <= 50 && total1 < 70) {
+if (average < 50) {
+  console.log("the student is failing");
+} else if (average < 70) {
   console.log("the student's performance is just under average.");
-} else if (total1 <= 70 && total1 < 80) {
+} else if (average < 80) {
   console.log("The students performance is average");
 } else {
   console.log("The student is on the honour roll");
