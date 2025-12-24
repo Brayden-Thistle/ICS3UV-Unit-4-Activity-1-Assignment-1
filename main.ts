@@ -5,7 +5,7 @@
  * @fileoverview this program will calculate the average of someones grades
  */
 
-//
+//varaibles
 const MarkAmounts = Number(prompt("How many marks will you enter?"));
 let mark: number;
 let total1: number = 0;
